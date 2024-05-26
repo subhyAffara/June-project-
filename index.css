@@ -42,3 +42,96 @@
     border-radius: 5%;
 
 }
+
+#mainsignup {
+    display: flex;
+    justify-content: space-around;
+}
+
+#mainsignup>div {
+    width: 33%;
+}
+
+#mainsignup>div>img {
+    max-width: 100%;
+
+}
+
+#form1 {
+    width: 100%;
+
+}
+
+/* make the form1 the size of the div */
+
+#form1>div {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+
+}
+
+/* center divs inside the form1 */
+
+
+#form1>div>input {
+    width: 100%;
+}
+
+/* center inputs inside the form1 */
+#DOB {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#DOB>div {
+    width: 30%;
+}
+
+#DOB>div>input {
+    width: 100%;
+}
+
+#DOB>div>select {
+    width: 100%;
+}
+
+.adress {
+    width: 100%;
+}
+
+.adress>div {
+    width: 40%;
+}
+
+.adress>div>input {
+    width: 100%;
+}
+
+#fullname {
+    width: 98%;
+
+}
+
+#fullname>div {
+    width: 46%;
+}
+
+#fullname>div>input {
+    max-width: 100%;
+}
+
+#checkbox {
+    align-self: center;
+}
+
+#underPic {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#dunderpic>img {
+    width: 32%;
+}

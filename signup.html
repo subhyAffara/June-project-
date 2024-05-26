@@ -25,21 +25,85 @@
         </a>
     </div>
     <br>
-    <div>
-        <div><img id="leftpic" src="colomn2.jpeg" alt="">
+    <div id="mainsignup">
+        <div id="leftpic"><img src="colomn2.jpeg" alt="">
+            <img src="colomn3.jpeg" alt="">
         </div>
         <div>
-            <form action="">
+            <form id="form1" action="">
+                <div id="fullname">
+                    <div>
+                        <input id="firstname" type="text" placeholder="First Name">
+                    </div>
+                    <div>
+                        <input id="lastname" type="text" placeholder="Last Name">
+                    </div>
+                </div>
+                <div>
+                    <input id="email" autocomplete="email" type="email" placeholder="example123@anyemail.com">
+                </div>
+                <div>
+                    <input id="pswrd" type="text" placeholder="password123">
+                </div>
+                <div>
+                    <input id="pswrd2" type="text" placeholder="password123">
+                </div>
+                <div id="DOB"> <!--date of birth  -->
+                    <div><input id="day" type="number" placeholder="01" min="1" max="31"></div>
+                    <div> <select name="birth month">
+                            <option value="">jan</option>
+                            <option value="">feb</option>
+                            <option value="">mar</option>
+                            <option value="">apr</option>
+                            <option value="">may</option>
+                            <option value="">jun</option>
+                            <option value="">jul</option>
+                            <option value="">aug</option>
+                            <option value="">sep</option>
+                            <option value="">oct</option>
+                            <option value="">nov</option>
+                            <option value="">dec</option>
+                        </select></div>
+                    <div><input id="year" type="number" placeholder="2003" min="1940" max="2008" step="1"></div>
+                </div>
 
+                <div class="adress">
+                    <div>
+                        <input id="country" autocomplete="country" placeholder="country">
+                    </div>
+                    <div> <input id="city" type="text" placeholder="city">
+                    </div>
 
+                </div>
 
+                <div class="adress">
+                    <div>
+                        <input id="street" type="text" placeholder="street name">
+                    </div>
+                    <div> <input id="houseNumber" type="text" placeholder="house number">
+                    </div>
 
-
+                </div>
+                <div>
+                    <div>
+                        <input type="checkbox" name="" id="checkbox">
+                    </div>
+                    <h3>check the box to recive promotional
+                        emails</h3>
+                </div>
+                <div>
+                    <input type="submit" value="submit">
+                </div>
             </form>
+            <img src="products.jpeg" alt="">
         </div>
-        <div><img id="rightpic" src="colomn2.jpeg" alt="">
+        <div id="rightpic">
+            <img src="colomn1.jpeg" alt="">
+            <img src="colomn4.jpeg" alt="">
         </div>
     </div>
+
+
     <script src="index.js"></script>
 </body>
 
