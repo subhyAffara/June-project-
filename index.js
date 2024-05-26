@@ -8,7 +8,7 @@ function picrotate() {
         fuckedup.innerHTML += `<img src="colomn${f + 1}.jpeg" alt=""`;
         document.getElementById("#mainsighnup").innerText += ` <img src="colomn${f}.jpeg" alt="">`;
         document.querySelector("#leftpic").innerHTML += `<img src="colomn${f + 2}.jpeg" alt=""`;
-
+        //im trying to put randomized pic in sighnup page
     }
 
 }
