@@ -30,17 +30,20 @@
 #maincoloms {
     display: flex;
     padding: 10px;
+    margin: auto;
 }
 
 .colomn {
-    max-width: 32%;
+    max-width: 33%;
     padding: 1%;
+
 }
 
 .colomn>img {
     max-width: 90%;
     border-radius: 5%;
-
+    justify-self: center;
+    display: flex;
 }
 
 #mainsignup {
@@ -132,6 +135,31 @@
     flex-wrap: wrap;
 }
 
-#dunderpic>img {
+#underpic>img {
     width: 32%;
+}
+
+#allproducts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#allproducts>div {
+    width: 33%;
+    height: 40%;
+    border: 2px solid beige;
+    border-radius: 5%;
+    height: fit-content;
+}
+
+#allproducts>div>img {
+    width: 100%;
+    border-radius: 5%;
+
+}
+
+#allproducts>div>p {
+    padding: 1%;
+
 }
