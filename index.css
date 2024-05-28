@@ -30,12 +30,12 @@
 #maincoloms {
     display: flex;
     padding: 10px;
-    margin: auto;
+    margin: 2%;
+    justify-content: space-evenly;
 }
 
 .colomn {
     max-width: 33%;
-    padding: 1%;
 
 }
 
@@ -146,20 +146,30 @@
 }
 
 #allproducts>div {
-    width: 33%;
-    height: 40%;
-    border: 2px solid beige;
+    width: 30%;
+    height: 450px;
+    margin: 1%;
+    border: 3px solid beige;
     border-radius: 5%;
     height: fit-content;
+
+}
+
+#allproducts>div>div>h3 {
+    color: green;
+    text-align: center;
 }
 
 #allproducts>div>img {
     width: 100%;
     border-radius: 5%;
-
+    height: 350px;
 }
 
 #allproducts>div>p {
-    padding: 1%;
+    padding: 3%;
 
 }
+
+
+/* need to pick a color scheme and finess the web page */
