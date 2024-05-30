@@ -14,15 +14,6 @@
     </div>
     <br>
     <div class="navbar">
-        <a href="signup.html">
-            <h3>Sign Up</h3>
-        </a>
-        <a href="index.html">
-            <h3>Home Page</h3>
-        </a>
-        <a href="products.html">
-            <h3>Products</h3>
-        </a>
     </div>
     <br>
     <div id="mainpara">
@@ -51,6 +42,13 @@
 
 
     <script src="index.js"></script>
+    <script>
+        window.addEventListener('load', () => {
+            let theNav = document.querySelector(".navbar");
+            theNav.innerHTML = "";
+            theNav.appendChild(createNavBar(arrForNav, "About"));
+        });
+    </script>
 </body>
 
 </html>

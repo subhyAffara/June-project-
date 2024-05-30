@@ -15,14 +15,7 @@
     <br>
     <div class="navbar">
         <a href="signup.html">
-            <h3>Sign Up</h3>
-        </a>
-        <a href="index.html">
-            <h3>Home Page</h3>
-        </a>
-        <a href="products.html">
-            <h3>Products</h3>
-        </a>
+
     </div>
     <br>
     <div id="mainsignup">
@@ -30,7 +23,7 @@
             <img src="colomn3.jpeg" alt="">
         </div>
         <div id="midpic">
-            <form id="form1" action="">
+            <form id="form1" action="" onsubmit="return processForm()">
                 <div id="fullname">
                     <div>
                         <input id="firstname" type="text" placeholder="First Name">
@@ -88,11 +81,14 @@
                     <div>
                         <input type="checkbox" name="" id="checkbox">
                     </div>
-                    <h3>check the box to recive promotional
-                        emails</h3>
+                    <label for="checkbox">
+                        <h3>check the box to recive promotional
+                            emails</h3>
+                    </label>
                 </div>
                 <div>
-                    <input type="submit" value="submit">
+                    <button type="submit">Submit</button>
+
                 </div>
             </form>
             <img src="products.jpeg" alt="">
@@ -105,6 +101,13 @@
 
 
     <script onload="picrotate()" src="index.js"></script>
+    <script>
+        window.addEventListener('load', () => {
+            let theNav = document.querySelector(".navbar");
+            theNav.innerHTML = "";
+            theNav.appendChild(createNavBar(arrForNav, "About"));
+        });
+    </script>
 </body>
 
 </html>

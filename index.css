@@ -8,10 +8,28 @@
     text-align: center;
 }
 
-.navbar {
+/* .navbar {
     display: flex;
     justify-content: space-around;
+} */
+
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
+
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.nav-item.active {
+    background-color: #a8d725;
+}
+
 
 #mainpara {
     display: flex;
@@ -114,12 +132,15 @@
 }
 
 #fullname {
-    width: 98%;
+    width: 100%;
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
 
 }
 
 #fullname>div {
-    width: 46%;
+    width: 40%;
 }
 
 #fullname>div>input {

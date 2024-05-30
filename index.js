@@ -38,6 +38,33 @@ function colomnadd() {
 
 // get a boatload more pics to spice it up
 
+let arrForNav = [
+    { href: "products.html", displayText: "Products" },
+    { href: "index.html", displayText: "Home Page" },
+    { href: "signup.html", displayText: "Sign UP" }
+];
+
+function createNavBar(arrOfNavItems, thePageName) {
+    let theNav = document.createElement('nav');
+    for (const curr of arrOfNavItems) {
+        let newA = document.createElement('a');
+        newA.setAttribute("href", curr.href);
+        newA.appendChild(document.createTextNode(curr.displayText));
+        newA.classList.add("nav-item");
+        if (curr.displayText === thePageName) {
+            newA.classList.add("active");
+        }
+        theNav.appendChild(newA);
+    }
+    return theNav;
+}
 
 
+//     { href: "hobbies.html", displayText: "Hobbies" }
+function processForm() {
+    // Your form handling logic goes here
+    // For example, you can validate form fields or send data to the server
 
+    // Return false to prevent the default form submission behavior
+    return false;
+}
