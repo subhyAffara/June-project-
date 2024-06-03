@@ -14,12 +14,11 @@ function picrotate() {
     }
 
 }
-
+//randomized pics for sign up page gallery
 
 function colomnadd() {
 
     for (let i = 1; i <= 8; i++) {
-        // var f = Math.floor(Math.random() * 8) + 1;
         document.querySelector("#allproducts").innerHTML += `<div><img src="products${i}.jpeg" alt=""><div>
         <h3>available on site </h3>
         </div> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae omnis est magni at esse doloribus,
@@ -28,7 +27,7 @@ function colomnadd() {
 }
 // attemt to create a system to make obect and remmeber costumer info in a way where it can stored and revitsed from signup page
 
-// get a boatload more pics to spice it up
+
 
 let arrForNav = [
     { href: "products.html", displayText: "Products" },

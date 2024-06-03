@@ -192,6 +192,7 @@ nav {
 #underPic {
     display: flex;
     flex-wrap: wrap;
+
 }
 
 #underpic>img {
