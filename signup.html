@@ -9,9 +9,10 @@
 </head>
 
 <body>
+
     <br>
     <div class="title">
-        <h2>Surf Shop</h2>
+        <h1>Surf Shop</h1>
     </div>
     <br>
     <div class="navbar">
@@ -82,12 +83,13 @@
                         <input type="checkbox" name="" id="checkbox">
                     </div>
                     <label for="checkbox">
-                        <h3>check the box to recive promotional
+                        <h3 id="checktext">check the box to recive promotional
                             emails</h3>
                     </label>
                 </div>
-                <div>
-                    <button type="submit">Submit</button>
+                <div id="sub">
+                    <input type="submit">
+
 
                 </div>
             </form>
@@ -104,7 +106,7 @@
         window.addEventListener('load', () => {
             let theNav = document.querySelector(".navbar");
             theNav.innerHTML = "";
-            theNav.appendChild(createNavBar(arrForNav, "About"));
+            theNav.appendChild(createNavBar(arrForNav, "Sign Up"));
         });
     </script>
 </body>

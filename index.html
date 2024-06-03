@@ -11,7 +11,7 @@
 <body>
 
     <div class="title">
-        <h2>Surf Shop</h2>
+        <h1>Surf Shop</h1>
     </div>
     <br>
     <div class="navbar">
@@ -19,21 +19,29 @@
     <br>
     <div id="mainpara">
         <img src="colomn4.jpeg" alt="">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda reiciendis vel hic repellat iste vitae
-            pariatur deleniti quasi laboriosam. Dolor autem natus nesciunt aliquam consequatur distinctio repudiandae
-            aspernatur? Iure molestiae fuga dolores debitis at suscipit ut rerum consequatur nisi, est quas deserunt
-            distinctio id accusantium voluptate neque architecto. Error, architecto.</p>
+        <div>
+            <h2>welcome to our local surf shop</h2>
+            <br>
+            <p>
+
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda reiciendis vel hic repellat iste
+                vitae
+                pariatur deleniti quasi laboriosam. Dolor autem natus nesciunt aliquam consequatur distinctio
+                repudiandae
+                aspernatur? Iure molestiae fuga dolores debitis at suscipit ut rerum consequatur nisi, est quas deserunt
+                distinctio id accusantium voluptate neque architecto. Error, architecto.</p>
+        </div>
     </div>
     <div id="maincoloms">
-        <div class="colomn"> <img src="colomn1.jpeg" alt="">
+        <div class="colomn"> <img src="colomn1.jpeg" alt=""><br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ipsa quod alias exercitationem saepe.
                 Magnam dicta quidem magni. Architecto excepturi, fuga facere velit eos commodi.</p>
         </div>
-        <div class="colomn"> <img src="colomn2.jpeg" alt="">
+        <div class="colomn"> <img src="colomn2.jpeg" alt=""><br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ipsa quod alias exercitationem saepe.
                 Magnam dicta quidem magni. Architecto excepturi, fuga facere velit eos commodi.</p>
         </div>
-        <div class="colomn"> <img src="colomn3.jpeg" alt="">
+        <div class="colomn"> <img src="colomn3.jpeg" alt=""><br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ipsa quod alias exercitationem saepe.
                 Magnam dicta quidem magni. Architecto excepturi, fuga facere velit eos commodi.</p>
         </div>
@@ -47,7 +55,7 @@
         window.addEventListener('load', () => {
             let theNav = document.querySelector(".navbar");
             theNav.innerHTML = "";
-            theNav.appendChild(createNavBar(arrForNav, "About"));
+            theNav.appendChild(createNavBar(arrForNav, "Home Page"));
         });
     </script>
 </body>
