@@ -28,6 +28,12 @@ nav {
     padding: 8px 16px;
 }
 
+.nav-item:hover {
+    background-color: #333;
+    border-radius: 5%;
+
+}
+
 .nav-item.active {
     background-color: #333;
     border-radius: 5%;
@@ -177,10 +183,11 @@ nav {
 
 #checkbox {
     align-self: center;
+
 }
 
 #checktext {
-
+    padding: 2%;
     background-color: #b1b1b1;
 }
 
