@@ -13,6 +13,8 @@ body {
     padding-top: 2%;
 }
 
+
+
 nav {
     background-color: #b1b1b1;
     display: flex;
@@ -31,42 +33,45 @@ nav {
     border-radius: 5%;
 }
 
-#mainpara,
-#maincoloms,
-#mainsignup,
-#underPic,
-#allproducts {
+
+
+#mainpara {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
 }
 
-#mainpara>img,
-.colomn>img,
-#mainsignup>div>img,
-#underpic>img,
-#allproducts>div>img {
+#mainpara>img {
     max-width: 50%;
-    width: 100%;
     border-radius: 5%;
 }
 
-#mainpara>div,
-.colomn>p,
-#allproducts>div {
+#mainpara>div {
     border-radius: 5%;
     padding: 5%;
     max-width: 48%;
     background-color: #b1b1b1;
+
 }
 
+
+
 #maincoloms {
+    display: flex;
     padding: 10px;
     margin: 2%;
+    justify-content: space-evenly;
 }
 
 .colomn {
     width: 32%;
+
+}
+
+.colomn>img {
+    width: 100%;
+    border-radius: 5%;
+    justify-self: center;
+    display: flex;
 }
 
 .colomn>p {
@@ -74,44 +79,100 @@ nav {
     width: 100%;
     border-radius: 8%;
     background-color: #b1b1b1;
+
+}
+
+#mainsignup {
+    display: flex;
+    justify-content: space-around;
 }
 
 #mainsignup>div {
     width: 33%;
 }
 
+#mainsignup>div>img {
+    max-width: 100%;
+
+}
+
 #form1 {
     width: 100%;
+
+
 }
+
+/* make the form1 the size of the div */
 
 #form1>div {
     max-width: 100%;
     display: flex;
     justify-content: space-evenly;
     padding: 2%;
+
 }
 
-#form1>div>input,
-#DOB>div>input,
-#DOB>div>select,
-.adress>div>input,
-#fullname>div>input {
+/* center divs inside the form1 */
+
+
+#form1>div>input {
     width: 100%;
     background-color: #b1b1b1;
 }
 
-#DOB,
-.adress,
+/* center inputs inside the form1 */
+#DOB {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#DOB>div {
+    width: 30%;
+
+}
+
+#DOB>div>input {
+    width: 100%;
+    background-color: #b1b1b1;
+
+}
+
+#DOB>div>select {
+    width: 100%;
+    background-color: #b1b1b1;
+
+}
+
+.adress {
+    width: 100%;
+}
+
+.adress>div {
+    width: 40%;
+}
+
+.adress>div>input {
+    width: 100%;
+    background-color: #b1b1b1;
+
+}
+
 #fullname {
     width: 100%;
     display: flex;
     justify-content: center;
+
 }
 
-#DOB>div,
-.adress>div,
 #fullname>div {
     width: 40%;
+}
+
+#fullname>div>input {
+    max-width: 100%;
+    background-color: #b1b1b1;
+
 }
 
 #checkbox {
@@ -119,6 +180,7 @@ nav {
 }
 
 #checktext {
+
     background-color: #b1b1b1;
 }
 
@@ -127,19 +189,47 @@ nav {
     background-color: #b1b1b1;
 }
 
+#underPic {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#underpic>img {
+    width: 32%;
+}
+
+#allproducts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 #allproducts>div {
     width: 30%;
+    height: 450px;
     margin: 1%;
     border: 3px solid #333;
     border-radius: 5%;
+    height: fit-content;
     background-color: #b1b1b1;
 }
+
 
 #allproducts>div>div>h3 {
     color: green;
     text-align: center;
 }
 
+#allproducts>div>img {
+    width: 100%;
+    border-radius: 5%;
+    height: 350px;
+}
+
 #allproducts>div>p {
     padding: 3%;
+
 }
+
+
+/* need to pick a color scheme and finess the web page */

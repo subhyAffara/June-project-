@@ -54,10 +54,3 @@ function createNavBar(arrOfNavItems, thePageName) {
 
 
 
-function processForm(event) {
-    const userdata = [];
-
-    event.preventDefault()
-    return false;
-}
-// attemting to retrive data from the form 
