@@ -60,11 +60,11 @@ function createNavBar(arrOfNavItems, thePageName) {
 }
 
 
-//     { href: "hobbies.html", displayText: "Hobbies" }
-function processForm() {
-    // Your form handling logic goes here
-    // For example, you can validate form fields or send data to the server
 
-    // Return false to prevent the default form submission behavior
+function processForm(event) {
+    const userdata = [];
+
+    event.preventDefault()
     return false;
 }
+// attemting to retrive data from the form 
